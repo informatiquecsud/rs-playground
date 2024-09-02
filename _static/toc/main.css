@@ -1,0 +1,79 @@
+.contents.topic {
+    background-color: rgb(230 230 230);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: hidden;
+}
+
+.topic-title.first {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.contents.topic ul {
+    list-style-type: none;
+    position: relative;
+    left: -3rem;
+}
+.contents.topic > ul {
+    list-style-type: none;
+    position: relative;
+    left: -4rem;
+}
+
+.contents.topic > ul {
+    overflow: hidden;
+}
+
+.contents.topic ul > li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.3rem;
+    margin-top: ;
+}
+
+.contents.topic ul > li > p {
+    margin-bottom: 0.2rem;
+}
+.contents.topic > ul {
+    min-width: 25rem;
+}
+
+.contents.topic > ul > li {
+    border: 1px dashed #ccc;
+}
+.contents.topic ul > li {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+a.toc-backref {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*
+.contents.topic ul > li {
+    border-bottom: 2px dashed #ccc;
+}
+.contents.topic ul > li:last-child {
+    border-bottom: none;
+}
+.contents.topic ul > li:first-child {
+    border-top: 2px dashed #ccc;
+}
+
+*/
+
+@media screen and (min-width: 1600px) {
+    .contents.topic {
+        position: fixed;
+        top: 6rem;
+        left: 0rem;
+        width: 23rem;
+        max-height: 800px;
+        overflow-y: scroll;
+    }
+}

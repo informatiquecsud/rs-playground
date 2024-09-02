@@ -1,0 +1,9 @@
+build
+__pycache__
+.vscode
+mdfiles
+published
+NOBUILD
+Pipfile
+
+.env
